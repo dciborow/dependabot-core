@@ -19,6 +19,7 @@ jobs:
       fail-fast: false
       matrix:
         suite:
+          - { name: bicep, ecosystem: bicep }
           - { name: bundler, ecosystem: bundler }
           - { name: cargo, ecosystem: cargo }
           - { name: composer, ecosystem: composer }
@@ -34,7 +35,7 @@ jobs:
           - { name: nuget, ecosystem: nuget }
           - { name: pub, ecosystem: pub }
           - { name: python, ecosystem: pip }
-          - { name: terraform, ecosystem: terraform }
+          - { name: terraform, ecosystem: terraform }          
     permissions:
       contents: read
       packages: write
