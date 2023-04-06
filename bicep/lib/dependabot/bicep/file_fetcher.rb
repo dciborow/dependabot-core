@@ -18,7 +18,6 @@ module Dependabot
       def fetch_files
         fetched_files = []
         fetched_files += bicep_files
-        fetched_files += local_path_module_files(terraform_files)
 
         return fetched_files if fetched_files.any?
 
@@ -47,7 +46,6 @@ module Dependabot
               select { |f| f.type == "file" && f.name.end_with?(".bicep") }.
               map { |f| fetch_file_from_host(File.join(base_path, f.name)) }
             bicep_files += nested_bicep_files
-            bicep_files += local_path_module_files(nested_bicep_files, dir: path)
           end
         end
 
@@ -55,16 +53,6 @@ module Dependabot
         # match what we do in other ecosystems
         bicep_files.tap { |fs| fs.each { |f| f.support_file = true } }
       end
-
-      def bicep_file_local_module_details(file)
-        return [] unless file.name.end_with?(".bicep")
-        return [] unless file.content.match?(LOCAL_PATH_SOURCE)
-
-        file.content.scan(LOCAL_PATH_SOURCE).flatten.map do |path|
-          Pathname.new(path).cleanpath.to_path
-        end
-      end
-
     end
   end
 end
