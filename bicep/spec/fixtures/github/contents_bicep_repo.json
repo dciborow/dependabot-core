@@ -1,0 +1,56 @@
+[
+  {
+    "name": ".gitignore",
+    "path": ".gitignore",
+    "sha": "06024fa3961db1f38caecf3a5b28599a52e0dfb3",
+    "size": 979,
+    "url": "https://api.github.com/repos/Azure/azure-quickstart-templates/contents/.gitignore?ref=master",
+    "html_url": "https://github.com/Azure/azure-quickstart-templates/blob/master/.gitignore",
+    "git_url": "https://api.github.com/repos/Azure/azure-quickstart-templates/git/blobs/06024fa3961db1f38caecf3a5b28599a52e0dfb3",
+    "download_url": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/.gitignore",
+    "type": "file",
+    "content": "YW5zaWJsZS1hZHZhbmNlZGxpbnV4L0Fuc2libGVfQVJNLnBzMQphcHByZW5k\nYTYwLWV4cHJlc3MvcHJvdmlzaW9uQXBwcmVuZGFUZXN0U2NyaXB0LnBzMQph\ncHByZW5kYTYwLXNtYWxsL3Byb3Zpc2lvbkFwcHJlbmRhVGVzdFNjcmlwdC5w\nczEKYXBwcmVuZGE2MC1leHByZXNzL3Byb3Zpc2lvbkFwcHJlbmRhVGVzdFNj\ncmlwdC5wczEKCiMgbG9jYWwgdGVtcGxhdGUgcGFyYW1ldGVycwoqKi9henVy\nZWRlcGxveS5wYXJhbWV0ZXJzLmxvY2FsLmpzb24KKiovYXp1cmVkZXBsb3ku\ncGFyYW1ldGVycy5kZXYuanNvbgoqKi9henVyZWRlcGxveS5wYXJhbWV0ZXJz\nLj8uanNvbgoqKi9wcmVyZXEuYXp1cmVkZXBsb3kucGFyYW1ldGVycy4/Lmpz\nb24KKiovcHJlcmVxLmF6dXJlZGVwbG95LnBhcmFtZXRlcnMuZGV2Lmpzb24K\nCiMgc2VjcmV0cwoqKi8qLnBmeAoqKi8qLmNlcgoKIyBWaXN1YWwgU3R1ZGlv\nIGF1dG9zYXZlcwoudnMKCiMgZW1hY3MgYXV0b3NhdmVzCmF1dG8tc2F2ZS1s\naXN0CmN1c3RvbS5lbAp1cmwvCi5vcmctaWQtbG9jYXRpb25zClwjKgpvcmct\nbW9kZS1jb25maWcuZWwKKn4KLiMqClwjKlwjCioubG9nCi5EU19TdG9yZQpv\ncmctY2xvY2stc2F2ZS5lbAplbWFjcy1jb25maWcuZWwKLnZzY29kZQpub2Rl\nX21vZHVsZXMKTmVzZV9PTVNfTkVzdGVkZm9yT01TV1MuanNvbgp0ZXN0L3Rl\nbXBsYXRlLXZhbGlkYXRpb24tdGVzdHMvcGFja2FnZS1sb2NrLmpzb24KdGVz\ndC90ZW1wbGF0ZS12YWxpZGF0aW9uLXRlc3RzL21vY2hhd2Vzb21lLXJlcG9y\ndC8qCgp0ZXN0L0F6VGVtcGxhdGVUb29sS2l0LnppcAp0ZXN0L2FybS10ZW1w\nbGF0ZS10b29sa2l0LnppcAp0ZXN0L2NpLXNjcmlwdHMvYXp1cmVkZXBsb3ku\ncGFyYW1ldGVycy5uZXcuanNvbgp0ZXN0L2NpLXNjcmlwdHMvS2lsbC1LaWxs\nLnBzMQoKcXVpY2tzdGFydHMvbWljcm9zb2Z0LmN1c3RvbXByb3ZpZGVycy9j\ndXN0b20tcnAtd2l0aC1mdW5jdGlvbi9zcmMvb2JqLyoqCg==\n",
+    "encoding": "base64",
+    "_links": {
+      "self": "https://api.github.com/repos/Azure/azure-quickstart-templates/contents/.gitignore?ref=master",
+      "git": "https://api.github.com/repos/Azure/azure-quickstart-templates/git/blobs/06024fa3961db1f38caecf3a5b28599a52e0dfb3",
+      "html": "https://github.com/Azure/azure-quickstart-templates/blob/master/.gitignore"
+    }
+  },
+  {
+    "name": "main.bicep",
+    "path": "quickstarts/microsoft.storage/storage-account-create/main.bicep",
+    "sha": "1a34ed9e4ab49aadd3cfb43bad9e5ec5c132821a",
+    "size": 749,
+    "url": "https://api.github.com/repos/Azure/azure-quickstart-templates/contents/quickstarts/microsoft.storage/storage-account-create/main.bicep?ref=master",
+    "html_url": "https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.storage/storage-account-create/main.bicep",
+    "git_url": "https://api.github.com/repos/Azure/azure-quickstart-templates/git/blobs/1a34ed9e4ab49aadd3cfb43bad9e5ec5c132821a",
+    "download_url": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/quickstarts/microsoft.storage/storage-account-create/main.bicep",
+    "type": "file",
+    "content": "QGRlc2NyaXB0aW9uKCdTdG9yYWdlIEFjY291bnQgdHlwZScpCkBhbGxvd2Vk\nKFsKICAnUHJlbWl1bV9MUlMnCiAgJ1ByZW1pdW1fWlJTJwogICdTdGFuZGFy\nZF9HUlMnCiAgJ1N0YW5kYXJkX0daUlMnCiAgJ1N0YW5kYXJkX0xSUycKICAn\nU3RhbmRhcmRfUkFHUlMnCiAgJ1N0YW5kYXJkX1JBR1pSUycKICAnU3RhbmRh\ncmRfWlJTJwpdKQpwYXJhbSBzdG9yYWdlQWNjb3VudFR5cGUgc3RyaW5nID0g\nJ1N0YW5kYXJkX0xSUycKCkBkZXNjcmlwdGlvbignVGhlIHN0b3JhZ2UgYWNj\nb3VudCBsb2NhdGlvbi4nKQpwYXJhbSBsb2NhdGlvbiBzdHJpbmcgPSByZXNv\ndXJjZUdyb3VwKCkubG9jYXRpb24KCkBkZXNjcmlwdGlvbignVGhlIG5hbWUg\nb2YgdGhlIHN0b3JhZ2UgYWNjb3VudCcpCnBhcmFtIHN0b3JhZ2VBY2NvdW50\nTmFtZSBzdHJpbmcgPSAnc3RvcmUke3VuaXF1ZVN0cmluZyhyZXNvdXJjZUdy\nb3VwKCkuaWQpfScKCnJlc291cmNlIHNhICdNaWNyb3NvZnQuU3RvcmFnZS9z\ndG9yYWdlQWNjb3VudHNAMjAyMi0wOS0wMScgPSB7CiAgbmFtZTogc3RvcmFn\nZUFjY291bnROYW1lCiAgbG9jYXRpb246IGxvY2F0aW9uCiAgc2t1OiB7CiAg\nICBuYW1lOiBzdG9yYWdlQWNjb3VudFR5cGUKICB9CiAga2luZDogJ1N0b3Jh\nZ2VWMicKICBwcm9wZXJ0aWVzOiB7fQp9CgpvdXRwdXQgc3RvcmFnZUFjY291\nbnROYW1lIHN0cmluZyA9IHN0b3JhZ2VBY2NvdW50TmFtZQpvdXRwdXQgc3Rv\ncmFnZUFjY291bnRJZCBzdHJpbmcgPSBzYS5pZAo=\n",
+    "encoding": "base64",
+    "_links": {
+      "self": "https://api.github.com/repos/Azure/azure-quickstart-templates/contents/quickstarts/microsoft.storage/storage-account-create/main.bicep?ref=master",
+      "git": "https://api.github.com/repos/Azure/azure-quickstart-templates/git/blobs/1a34ed9e4ab49aadd3cfb43bad9e5ec5c132821a",
+      "html": "https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.storage/storage-account-create/main.bicep"
+    }
+  },
+  {
+    "name": "main.bicep",
+    "path": "quickstarts/microsoft.storage/storage-blob-container/main.bicep",
+    "sha": "9a3368f2f5fe8aba1e37c71d47fd8c5ca25e8d3d",
+    "size": 695,
+    "url": "https://api.github.com/repos/Azure/azure-quickstart-templates/contents/quickstarts/microsoft.storage/storage-blob-container/main.bicep?ref=master",
+    "html_url": "https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.storage/storage-blob-container/main.bicep",
+    "git_url": "https://api.github.com/repos/Azure/azure-quickstart-templates/git/blobs/9a3368f2f5fe8aba1e37c71d47fd8c5ca25e8d3d",
+    "download_url": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/quickstarts/microsoft.storage/storage-blob-container/main.bicep",
+    "type": "file",
+    "content": "QGRlc2NyaXB0aW9uKCdTcGVjaWZpZXMgdGhlIG5hbWUgb2YgdGhlIEF6dXJl\nIFN0b3JhZ2UgYWNjb3VudC4nKQpwYXJhbSBzdG9yYWdlQWNjb3VudE5hbWUg\nc3RyaW5nCgpAZGVzY3JpcHRpb24oJ1NwZWNpZmllcyB0aGUgbmFtZSBvZiB0\naGUgYmxvYiBjb250YWluZXIuJykKcGFyYW0gY29udGFpbmVyTmFtZSBzdHJp\nbmcgPSAnbG9ncycKCkBkZXNjcmlwdGlvbignU3BlY2lmaWVzIHRoZSBsb2Nh\ndGlvbiBpbiB3aGljaCB0aGUgQXp1cmUgU3RvcmFnZSByZXNvdXJjZXMgc2hv\ndWxkIGJlIGRlcGxveWVkLicpCnBhcmFtIGxvY2F0aW9uIHN0cmluZyA9IHJl\nc291cmNlR3JvdXAoKS5sb2NhdGlvbgoKcmVzb3VyY2Ugc2EgJ01pY3Jvc29m\ndC5TdG9yYWdlL3N0b3JhZ2VBY2NvdW50c0AyMDIyLTA1LTAxJyA9IHsKICBu\nYW1lOiBzdG9yYWdlQWNjb3VudE5hbWUKICBsb2NhdGlvbjogbG9jYXRpb24K\nICBza3U6IHsKICAgIG5hbWU6ICdTdGFuZGFyZF9MUlMnCiAgfQogIGtpbmQ6\nICdTdG9yYWdlVjInCiAgcHJvcGVydGllczogewogICAgYWNjZXNzVGllcjog\nJ0hvdCcKICB9Cn0KCnJlc291cmNlIGNvbnRhaW5lciAnTWljcm9zb2Z0LlN0\nb3JhZ2Uvc3RvcmFnZUFjY291bnRzL2Jsb2JTZXJ2aWNlcy9jb250YWluZXJz\nQDIwMjItMDUtMDEnID0gewogIG5hbWU6ICcke3NhLm5hbWV9L2RlZmF1bHQv\nJHtjb250YWluZXJOYW1lfScKfQo=\n",
+    "encoding": "base64",
+    "_links": {
+      "self": "https://api.github.com/repos/Azure/azure-quickstart-templates/contents/quickstarts/microsoft.storage/storage-blob-container/main.bicep?ref=master",
+      "git": "https://api.github.com/repos/Azure/azure-quickstart-templates/git/blobs/9a3368f2f5fe8aba1e37c71d47fd8c5ca25e8d3d",
+      "html": "https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.storage/storage-blob-container/main.bicep"
+    }
+  }
+]

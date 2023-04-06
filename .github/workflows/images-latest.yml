@@ -34,6 +34,7 @@ jobs:
       fail-fast: false
       matrix:
         suite:
+          - { name: bicep, ecosystem: bicep }
           - { name: bundler, ecosystem: bundler }
           - { name: cargo, ecosystem: cargo }
           - { name: composer, ecosystem: composer }
