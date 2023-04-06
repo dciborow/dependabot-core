@@ -1,6 +1,6 @@
-## `dependabot-terraform`
+## `dependabot-bicep`
 
-Terraform support for [`dependabot-core`][core-repo].
+Bicep support for [`dependabot-core`][core-repo].
 
 ### Running locally
 
