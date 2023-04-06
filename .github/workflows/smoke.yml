@@ -59,6 +59,12 @@ jobs:
             - 'common/**'
             - 'updater/**'
             - 'github_actions/**'
+          bicep:
+            - .github/workflows/smoke.yml
+            - Dockerfile.updater-core
+            - 'common/**'
+            - 'updater/**'
+            - 'bicep/**'
           bundler:
             - .github/workflows/smoke.yml
             - Dockerfile.updater-core
