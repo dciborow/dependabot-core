@@ -35,12 +35,6 @@ module Dependabot
           map { |f| fetch_file_from_host(f.name) }
       end
 
-      def terragrunt_files
-        @terragrunt_files ||=
-          repo_contents(raise_errors: false).
-          select { |f| f.type == "file" && terragrunt_file?(f.name) }.
-          map { |f| fetch_file_from_host(f.name) }
-      end
 
       def local_path_module_files(files, dir: ".")
         bicep_files = []
